@@ -11,6 +11,8 @@
         <module>EurekaServer</module>
         <module>ConfigServer</module>
         <module>ZipkinClientTest</module>
+        <module>ZipkinServer</module>
+        <module>ZuulGateway</module>
     </modules>
     <packaging>pom</packaging>
 

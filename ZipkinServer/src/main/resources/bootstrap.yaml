@@ -1,13 +1,13 @@
 spring:
   application:
-    name: config-client
+    name: zipkin-server
   cloud:
     config:
       discovery:
         enabled: true
         service-id: config-server
       fail-fast: true
-      label: feature_configserver
+      label: feature_zipkinserver
   profiles:
     active: pro
 
