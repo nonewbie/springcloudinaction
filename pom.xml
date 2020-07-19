@@ -10,7 +10,7 @@
     <modules>
         <module>EurekaServer</module>
         <module>ConfigServer</module>
-        <module>ConfigClientTest</module>
+        <module>ZipkinClientTest</module>
     </modules>
     <packaging>pom</packaging>
 
