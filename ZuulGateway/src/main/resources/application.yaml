@@ -1,9 +1,12 @@
 zuul:
+  sensitive-headers:
   routes:
-    zipkin-client:
-      serviceId: zipkin-client
-      path: /zipkinclientapi/**
-      sensitiveHeaders:
+    uaa-service:
+      serviceId: uaa-service
+      path: /uaaapi/**
+    user-service:
+      serviceId: user-service
+      path: /userapi/**
 eureka:
   client:
     service-url:

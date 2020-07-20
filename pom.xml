@@ -10,8 +10,9 @@
     <modules>
         <module>EurekaServer</module>
         <module>ConfigServer</module>
-        <module>ZipkinClientTest</module>
         <module>ZipkinServer</module>
+        <module>UserService</module>
+        <module>UaaService</module>
         <module>ZuulGateway</module>
     </modules>
     <packaging>pom</packaging>

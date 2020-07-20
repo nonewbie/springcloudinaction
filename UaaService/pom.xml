@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ZipkinClientTest</artifactId>
+    <artifactId>UaaService</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>ZipkinClientTest</name>
+    <name>UaaService</name>
     <description>Demo project for Hziflytek Spring Boot</description>
 
     <dependencies>
@@ -29,6 +29,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
     </dependencies>
 </project>
